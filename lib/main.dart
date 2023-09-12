@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       home:  ChangeNotifierProvider(
         create: (context) => MenuAppController(),
-        child: LoginScreen(), // Your initial screen
+        child: MainScreen(), // Your initial screen
       ),
     );
   }
